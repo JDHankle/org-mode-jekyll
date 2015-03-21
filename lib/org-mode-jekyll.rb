@@ -1,9 +1,9 @@
 require 'jekyll'
 require 'org-ruby'
 
-module OrgModeJekyll
-  module Jekyll
-    module Converters
+
+module Jekyll
+  module Converters
 
       class Org < Converter
         safe true
@@ -22,5 +22,4 @@ module OrgModeJekyll
 
       end
     end
-  end
 end
